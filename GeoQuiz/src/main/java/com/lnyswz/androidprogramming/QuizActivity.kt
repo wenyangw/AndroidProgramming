@@ -15,12 +15,12 @@ class QuizActivity : AppCompatActivity() {
     private val REQUEST_CODE_CHEAT = 0
 
     private var mQuestionBank = arrayOf(
-        Question(R.string.question_australia, true, false),
-        Question(R.string.question_oceans, true, false),
-        Question(R.string.question_mideast, false, false),
-        Question(R.string.question_africa, false, false),
-        Question(R.string.question_americas, true, false),
-        Question(R.string.question_asia, true, false)
+            Question(R.string.question_australia, true, false),
+            Question(R.string.question_oceans, true, false),
+            Question(R.string.question_mideast, false, false),
+            Question(R.string.question_africa, false, false),
+            Question(R.string.question_americas, true, false),
+            Question(R.string.question_asia, true, false)
     )
     private var mCurrentIndex = 0
     private var mAnswers = 0

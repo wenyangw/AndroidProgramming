@@ -10,7 +10,6 @@ class CrimeLab {
 
     private lateinit var mCrimes:  MutableList<Crime>
 
-
     companion object {
         private lateinit var sCrimeLab: CrimeLab
 
@@ -25,7 +24,7 @@ class CrimeLab {
     private constructor(context: Context){
         mCrimes = ArrayList<Crime>()
         for (i in 0..99){
-            var crime: Crime = Crime()
+            var crime = Crime()
             crime.mTitle = "Crime #" + i
             crime.mSolved = i % 2 == 0
             mCrimes.add(crime)
